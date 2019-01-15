@@ -7,7 +7,6 @@ New-Item -Path $filename  -ItemType File -Force
 
 #echo "Add the current date as text in test.txt":
 Set-Content $filename (get-date)
-echo "Radera innehållet i filen
 
 #Add text "Välkommen till Nackademin" into test.txt":
 Add-Content -value 'Välkommen till Nackademin' $filename 
