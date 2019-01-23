@@ -1,3 +1,6 @@
+
+
+
 Kör kommandot:
 10,20,30,40 | ForEach-Object -Process {$_/10}
 Vilket resultat får du?
@@ -14,3 +17,5 @@ I think this works as an operation statement which run a proccess and prints res
 20/10=2
 30/10=3
 40/10=4
+
+
