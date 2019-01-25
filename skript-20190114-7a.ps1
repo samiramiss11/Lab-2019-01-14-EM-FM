@@ -5,7 +5,7 @@
 New-Item C:\temp\fel.html -ItemType File
 
 #File1 path 
-$File1="C:\temp\fel.html"
+$File1= "C:\temp\fel.html"
 
 #Total number of warnings, error from system logs
 Get-EventLog -LogName System -EntryType Warning,Error | measure | ConvertTo-HTML | Out-File $File1 -Append
