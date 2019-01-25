@@ -1,3 +1,5 @@
+
+
 echo "i am creating variables":
 $filename = "C:\Temp\test" + ".txt"
 $filename
